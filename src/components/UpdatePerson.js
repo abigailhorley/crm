@@ -34,7 +34,7 @@ class UpdatePerson extends Component {
 
     static navigationOptions = {
         tabBarIcon: ({tintColor}) => (
-            <Icon name={'plus'} size={50} color={red} />
+            <Icon name={'plus'} size={50} color={'#941a1d'} />
         )
     }
 
@@ -70,7 +70,7 @@ class UpdatePerson extends Component {
         return (
             <ScrollView showsVerticalScrollIndicator={false}>
                 <View style={styles.form}>
-                    <Headline style={styles.headline}>Update contact</Headline>
+                    <Headline style={styles.headline}>Update Employee Details</Headline>
                     <TextInput
                         style={styles.inputField}
                         label="First name"
@@ -114,12 +114,12 @@ class UpdatePerson extends Component {
                         onChangeText={value => this.formUpdate({ prop: 'notes', value})}
                     />                       
                     <View style={styles.updateButton}>
-                        <Button color={'white'} style={{backgroundColor: 'grey'}} mode="contained" onPress={this.onUpdatePress.bind(this)}>
+                        <Button color={'white'} style={{backgroundColor: '#595959'}} mode="contained" onPress={this.onUpdatePress.bind(this)}>
                             Update
                         </Button>
                     </View>
                     <View style={styles.updateButton}>
-                        <Button color={'white'} style={{backgroundColor: 'grey'}} mode="contained" onPress={this.onCancelPress.bind(this)}>
+                        <Button color={'white'} style={{backgroundColor: '#595959'}} mode="contained" onPress={this.onCancelPress.bind(this)}>
                             Cancel
                         </Button>
                     </View>                   

@@ -26,7 +26,7 @@ const styles = StyleSheet.create({
         top: 15,
         left: 0,
         color: 'white',
-        backgroundColor: 'rgba(255,255,255,0)',
+        backgroundColor: '#ffffff',
     },
 });
 
@@ -46,7 +46,7 @@ const PeopleItem = (props) => {
                 <Card.Title
                     title={`${firstName} ${lastName}`}
                     subtitle={`${company}`}
-                    left={(props) => <Avatar.Text color={'white'} style={{backgroundColor: 'grey'}} size={24} {...props} label={getAvatarLabel(firstName, lastName)} />}
+                    left={(props) => <Avatar.Text color={'#ffffff'} style={{backgroundColor: '#595959'}} size={24} {...props} label={getAvatarLabel(firstName, lastName)} />}
                 />
             </View>
         </TouchableWithoutFeedback>

@@ -11,10 +11,10 @@ const Tab = createBottomTabNavigator();
 function MyTabs() {
   return (
     <Tab.Navigator>
-      <Tab.Screen name="Welcome" component={LandingPage} />
-      <Tab.Screen name="People List" component={PeopleList} />
-      <Tab.Screen name="Add Person" component={AddPerson}/>
-      <Tab.Screen name="Company List" component={CompanyList} />
+      <Tab.Screen name="Home" component={LandingPage} />
+      <Tab.Screen name="Employees" component={PeopleList} />
+      <Tab.Screen name="Add Employee" component={AddPerson}/>
+      <Tab.Screen name="Company Directory" component={CompanyList} />
     </Tab.Navigator>
     
   );
