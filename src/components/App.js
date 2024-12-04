@@ -13,8 +13,8 @@ import React, {Component} from 'react';
    render() {
      return (
        <Provider store={store}>
-         <Appbar.Header style={{backgroundColor: '#ccccff'}}>
-           <Appbar.Content color={'blue'} style={{backgroundColor: '#ccccff'}} title="CRM APP" subtitle={'Developed using React Native'} />
+         <Appbar.Header style={{backgroundColor: '#941a1d'}}>
+           <Appbar.Content color={'blue'} style={{backgroundColor: '#262626'}} title="ROI HR System" subtitle={'Developed by Gelos ltd'} />
          </Appbar.Header>
          <Navigation />
        </Provider>
@@ -27,6 +27,6 @@ import React, {Component} from 'react';
      flex: 1,
      justifyContent: 'center',
      alignItems: 'center',
-     backgroundColor: '#c64c38',
+     backgroundColor: '#595959',
    },
  });
