@@ -14,7 +14,7 @@ import React, {Component} from 'react';
      return (
        <Provider store={store}>
          <Appbar.Header style={{backgroundColor: '#941a1d'}}>
-           <Appbar.Content color={'blue'} style={{backgroundColor: '#262626'}} title="ROI HR System" subtitle={'Developed by Gelos ltd'} />
+           <Appbar.Content color={'blue'} style={{backgroundColor: '#262626'}} title="ROI HR System" subtitle={'Developed by Gelos Ltd'} />
          </Appbar.Header>
          <Navigation />
        </Provider>
