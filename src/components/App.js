@@ -13,8 +13,8 @@ import React, {Component} from 'react';
    render() {
      return (
        <Provider store={store}>
-         <Appbar.Header style={{backgroundColor: '#c64c38'}}>
-           <Appbar.Content color={'#262626'} style={{backgroundColor: '#595959'}} title="CRM APP" subtitle={'Developed using React Native'} />
+         <Appbar.Header style={{backgroundColor: '#ccccff'}}>
+           <Appbar.Content color={'blue'} style={{backgroundColor: '#ccccff'}} title="CRM APP" subtitle={'Developed using React Native'} />
          </Appbar.Header>
          <Navigation />
        </Provider>
@@ -27,6 +27,6 @@ import React, {Component} from 'react';
      flex: 1,
      justifyContent: 'center',
      alignItems: 'center',
-     backgroundColor: '#941a1d',
+     backgroundColor: '#c64c38',
    },
  });

@@ -19,7 +19,7 @@ const styles = StyleSheet.create({
 class PeopleList extends Component {
     static navigationOptions = {
         tabBarIcon: ({tintColor}) => (
-            <Icon name={'user'} size={50} color={'#c64c38'} />
+            <Icon name={'user'} size={50} color={'#f08e25'} />
         )
     }
 
@@ -27,8 +27,8 @@ class PeopleList extends Component {
 
         if (this.props.detailView === true) {
             return (
-                <PeopleDetail navigateToPeopleList={()=>this.props.navigation.navigate("Employees")}
-                              navigateToAddPerson={()=>this.props.navigation.navigate("Add Employee")}
+                <PeopleDetail navigateToPeopleList={()=>this.props.navigation.navigate("People List")}
+                              navigateToAddPerson={()=>this.props.navigation.navigate("Add Person")}
                 />
             )
         }  
