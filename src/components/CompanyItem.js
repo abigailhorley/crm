@@ -26,7 +26,7 @@ const styles = StyleSheet.create({
         top: 10,
         left: 10,
         color: 'white',
-        backgroundColor: '#941a1d',
+        backgroundColor: 'rgba(255,255,255,0)',
     },
     companyItemContainer: {
         margin: 10
@@ -43,7 +43,7 @@ const CompanyItem = (props) => {
               <Card>
               <Card.Title
                 title={props.companies.company}
-                left={(props) => <Avatar.Icon {...props} color={'white'} style={{backgroundColor: '#c64c38'}} icon="group" />}
+                left={(props) => <Avatar.Icon {...props} color={'white'} style={{backgroundColor: 'grey'}} icon="group" />}
                 />                  
                 <Card.Content>
                     {props.companies.names.map((name) => {
