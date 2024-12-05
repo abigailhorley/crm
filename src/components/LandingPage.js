@@ -21,12 +21,12 @@ const styles = StyleSheet.create({
     justifyContent: "center"
   },
   text: {
-    color: "black",
+    color: "#ffffff",
     fontSize: 35,
     lineHeight: 84,
-    fontWeight: "bold",
+    fontWeight: "normal",
     textAlign: "center",
-    backgroundColor: "#c64c38"
+    backgroundColor: "#941a1d"
   }
 });
 
